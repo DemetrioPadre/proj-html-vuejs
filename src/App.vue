@@ -19,5 +19,5 @@ export default {
 </template>
 
 <style lang="scss">
-@use './assets/style/general.scss';
+@use './assets/style/general.scss'
 </style>

@@ -1,6 +1,11 @@
 <script>
 
 export default {
+    data() {
+        return {
+            titleClass: 'title'
+        };
+    }
 
 };
 </script>
@@ -8,10 +13,10 @@ export default {
 <template>
     <div class="container">
         <div class="logo">
-            <img src="/img/Logo.jpg" alt="">
+            <img src="../assets/img/Logo.jpg" alt="">
         </div>
         <div class="headerLink">
-            <!-- aggiungere un hover come in spotify -->
+            <!-- aggiungere un hover come in spotify quando si clicca usando il title class creato sopra-->
             <ul>
                 <li><a href="#"><strong>Home</strong></a></li>
                 <li><a href="#"><strong>About</strong></a></li>
@@ -25,7 +30,7 @@ export default {
 
 <style lang="scss">
 .container {
-    height: 80px;
+    height: 100px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -43,11 +48,6 @@ export default {
 
             padding: 20px;
 
-
-
-
-
-
             a {
                 text-decoration: none;
                 color: black;
@@ -60,7 +60,8 @@ export default {
         }
 
         li:hover {
-            border-bottom: 3px solid lime;
+            color: red;
+            border-bottom: 1px solid red;
         }
     }
 }
