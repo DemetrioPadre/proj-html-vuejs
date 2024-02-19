@@ -3,6 +3,7 @@
 export default {};
 </script>
 <template>
+    <!-- JUMBO -->
     <main class="container-fluid">
         <div class="containerMain">
             <div class="jumbo">
@@ -20,8 +21,13 @@ export default {};
                 </span> for all
                 students.</h2>
         </div>
+
+        <!-- fine del JUMBO -->
+
+        <!-- card -->
+
         <div class="containerCard">
-            <div class="row">
+            <div class="row justify-content-center ">
                 <div class="col-3">
                     <div class="card"><img class="imgTools" src="../assets/svg/svg-0.svg" alt="">
                         <p class="pHover"><strong>Online Coaching</strong></p>
@@ -57,9 +63,8 @@ main {
     background-color: #ffffff;
 }
 
+// inizio del JUmbo
 .containerMain {
-
-
     .jumbo {
         width: 100%;
         margin-top: 20px;
@@ -100,16 +105,23 @@ h2 {
     color: brown;
 }
 
+// fine del jumbo
+
+// inizio delle card
+
 .containerCard {
     background-color: #ffffff;
-    width: 1080px;
+    // width: 1080px;
     display: flex;
     justify-content: center;
-    margin-left: 300px;
-
+    align-items: center;
+    // margin-left: 400px;
 }
 
-
+.row {
+    display: flex;
+    justify-content: center;
+}
 
 .col-3 {
 
