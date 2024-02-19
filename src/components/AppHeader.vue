@@ -11,7 +11,8 @@ export default {
             <img src="/img/Logo.jpg" alt="">
         </div>
         <div class="headerLink">
-            <ul> // aggiungere un hover come in spotify
+            <!-- aggiungere un hover come in spotify -->
+            <ul>
                 <li><a href="#"><strong>Home</strong></a></li>
                 <li><a href="#"><strong>About</strong></a></li>
                 <li><a href="#"><strong>Academics</strong></a></li>
@@ -27,9 +28,10 @@ export default {
     height: 80px;
     background-color: white;
     display: flex;
+    justify-content: space-between;
 
     img {
-        height: 200px;
+        height: 150px;
     }
 
     .headerLink {
@@ -41,6 +43,11 @@ export default {
 
             padding: 20px;
 
+
+
+
+
+
             a {
                 text-decoration: none;
                 color: black;
@@ -50,6 +57,10 @@ export default {
 
 
             }
+        }
+
+        li:hover {
+            border-bottom: 3px solid lime;
         }
     }
 }
