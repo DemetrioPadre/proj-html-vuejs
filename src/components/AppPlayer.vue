@@ -14,6 +14,7 @@ export default {};
     </div>
     <div class="colContainer">
         <div class="col-6">
+            <div class="playerRelative"><i class="fa-solid fa-circle-play" style="color: #fd1800;"></i></div>
             <img class="imgPlayer" src="../assets/img/video-bg-3.jpg" alt="">
         </div>
         <div class="colPlayer">
@@ -32,6 +33,12 @@ export default {};
                 </p>
                 <span>Learn more </span>
                 <i class="fa-solid fa-angle-right"></i>
+                <div class="map ">
+                    <p><i class="fa-regular fa-map"></i> <strong>Event location</strong><i
+                            class="fa-solid fa-angle-right"></i>
+                    </p>
+                </div>
+
 
             </div>
         </div>
@@ -45,15 +52,27 @@ export default {};
     text-align: center;
 }
 
-.imgPlayer {
-    margin-left: 350px;
-}
-
 .underlineColor {
     color: #d74d52;
     text-decoration: underline;
 
 }
+
+.playerRelative {
+    font-size: 100px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+    top: 300px;
+}
+
+.imgPlayer {
+    margin-left: 300px;
+
+
+}
+
 
 .colContainer {
     display: flex;
@@ -63,7 +82,8 @@ export default {};
     width: 600px;
     height: 550px;
     background-color: pink;
-    margin-top: 80px;
+    margin-top: 200px;
+
 }
 
 .headerCol {
@@ -76,5 +96,11 @@ export default {};
     height: 100px;
     background-color: #d74d52;
     margin-left: 150px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 </style>
