@@ -14,11 +14,24 @@ export default {};
     </div>
     <div class="colContainer">
         <div class="col-6">
-            <img src="../assets/img/video-bg-3.jpg" alt="">
+            <img class="imgPlayer" src="../assets/img/video-bg-3.jpg" alt="">
         </div>
         <div class="colPlayer">
             <div class="headerCol">
-                <p class=" ">Upcoming Events</p>
+                <p class="  fs-3"><strong>Upcoming Events</strong></p>
+
+
+            </div>
+            <div class="mx-4 mt-5 mb-3">
+                <p><strong>Priceton offers admission information sessions <br> anda student-led tours to campus
+                        visitors</strong></p>
+                <span>Learn more </span>
+                <i class="fa-solid fa-angle-right"></i>
+                <p class="mt-4"><strong>Admission information sessions and student-led <br> tours to campus
+                        visitors</strong>
+                </p>
+                <span>Learn more </span>
+                <i class="fa-solid fa-angle-right"></i>
 
             </div>
         </div>
@@ -32,8 +45,8 @@ export default {};
     text-align: center;
 }
 
-img {
-    margin-left: 300px;
+.imgPlayer {
+    margin-left: 350px;
 }
 
 .underlineColor {
@@ -50,6 +63,7 @@ img {
     width: 600px;
     height: 550px;
     background-color: pink;
+    margin-top: 80px;
 }
 
 .headerCol {
@@ -58,10 +72,9 @@ img {
     align-items: center;
     align-content: center;
     text-align: center;
-    width: 250px;
-    height: 80px;
+    width: 300px;
+    height: 100px;
     background-color: #d74d52;
     margin-left: 150px;
-
 }
 </style>
