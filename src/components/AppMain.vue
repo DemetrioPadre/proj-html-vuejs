@@ -1,5 +1,6 @@
 <script>
 import AppCardCenter from './AppCardCenter.vue';
+import AppPlayer from './AppPlayer.vue';
 export default {
     data() {
         return {
@@ -16,14 +17,14 @@ export default {
                 {
                     image: "course-1-2.jpg",
                     price: "Free",
-                    title: "UI Animation using Sketch 3, Principle App, and Flinto",
+                    title: "The Ultimate Drawinf Course-Beginner to Advanced",
                     paragraph: " This online photography course will teach you how to take amazing images and even sell...",
                     info: "Course by : University",
                 },
                 {
                     image: "william-thomas-ny6tO4ItOEY-unsplash.jpg",
                     price: "Free",
-                    title: "UI Animation using Sketch 3, Principle App, and Flinto",
+                    title: "Your Complete Guide to Photography",
                     paragraph: " This online photography course will teach you how to take amazing images and even sell...",
                     info: "Course by : University",
                 },
@@ -31,7 +32,7 @@ export default {
             ],
         };
     },
-    components: { AppCardCenter }
+    components: { AppCardCenter, AppPlayer }
 };
 </script>
 <template>
@@ -97,10 +98,21 @@ export default {
             </div>
 
         </div>
+        <div class="row text-center p-4">
+            <h1><strong>Recent Courses</strong></h1>
+            <p>Whetever you're considering a foundation course or an undergraduate degree master's <br> or a PhD, academics
+                is a
+                place where students thrive</p>
+
+        </div>
         <div class="row">
             <AppCardCenter v-for="card in cards" :item="card">
             </AppCardCenter>
         </div>
+        <div class="row">
+            <AppPlayer></AppPlayer>
+        </div>
+
 
     </main>
 </template>
