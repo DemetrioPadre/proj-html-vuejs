@@ -1,6 +1,7 @@
 <script>
 import AppCardCenter from './AppCardCenter.vue';
 import AppPlayer from './AppPlayer.vue';
+import AppCardSec from './AppCardSec.vue';
 export default {
     data() {
         return {
@@ -32,7 +33,7 @@ export default {
             ],
         };
     },
-    components: { AppCardCenter, AppPlayer }
+    components: { AppCardCenter, AppPlayer, AppCardSec }
 };
 </script>
 <template>
