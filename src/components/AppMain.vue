@@ -53,9 +53,13 @@ export default {};
                     </div>
                 </div>
                 <div class="row d-flex">
-                    <div class="counter"><img src="../assets/img/counter-shape-1-1-1.png" alt=""></div>
-                    <div class="counter"><img src="../assets/img/counter-shape-2-1-1.png" alt=""></div>
-                    <div class="counter"><img src="../assets/img/counter-shape-3-1-1.png" alt=""></div>
+                    <div class=" col-3"><img class="counter" src="../assets/img/counter-shape-1-1-1.png" alt="">
+                        <span class="ciao">6500 + students</span>
+                    </div>
+                    <div class="col-3"><img class="counter" src="../assets/img/counter-shape-2-1-1.png" alt=""><span
+                            class="ciao">200 + online courses</span></div>
+                    <div class="col-3"><img class="counter" src="../assets/img/counter-shape-3-1-1.png" alt=""><span
+                            class="ciao">100% Happy clients</span></div>
                 </div>
 
             </div>
@@ -158,5 +162,17 @@ h2 {
 .pHover:hover {
     color: #d74d52;
     font-size: 20px;
+}
+
+.counter {
+    width: 100px;
+    height: 80px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.ciao {
+    position: relative;
+    margin-top: 130px;
 }
 </style>
