@@ -14,7 +14,14 @@ export default {
 
                 },
                 {
-                    image: "bruce-mars-FWVMhUa_wbY-unsplash.jpg",
+                    image: "course-1-2.jpg",
+                    price: "Free",
+                    title: "UI Animation using Sketch 3, Principle App, and Flinto",
+                    paragraph: " This online photography course will teach you how to take amazing images and even sell...",
+                    info: "Course by : University",
+                },
+                {
+                    image: "william-thomas-ny6tO4ItOEY-unsplash.jpg",
                     price: "Free",
                     title: "UI Animation using Sketch 3, Principle App, and Flinto",
                     paragraph: " This online photography course will teach you how to take amazing images and even sell...",
@@ -158,7 +165,7 @@ h2 {
 }
 
 .row {
-    display: flex;
+
     justify-content: center;
 }
 
