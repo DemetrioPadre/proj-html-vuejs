@@ -109,7 +109,7 @@ export default {
             <AppCardCenter v-for="card in cards" :item="card">
             </AppCardCenter>
         </div>
-        <div class="row">
+        <div class="">
             <AppPlayer></AppPlayer>
         </div>
 

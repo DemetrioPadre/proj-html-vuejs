@@ -19,6 +19,7 @@ export default {
   <AppHeader></AppHeader>
   <AppMain></AppMain>
   <AppCardCenter></AppCardCenter>
+  <AppPlayer></AppPlayer>
   <AppFooter></AppFooter>
 </template>
 
