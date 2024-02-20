@@ -2,6 +2,7 @@
 import AppCardCenter from './AppCardCenter.vue';
 import AppPlayer from './AppPlayer.vue';
 import AppCardSec from './AppCardSec.vue';
+import AppCarousel from './AppCarousel.vue';
 export default {
     data() {
         return {
@@ -58,7 +59,7 @@ export default {
             ]
         };
     },
-    components: { AppCardCenter, AppPlayer, AppCardSec }
+    components: { AppCardCenter, AppPlayer, AppCardSec, AppCarousel }
 };
 </script>
 <template>
@@ -138,9 +139,13 @@ export default {
         <div class="">
             <AppPlayer></AppPlayer>
         </div>
-        <div class="row">
+        <div class="row text-center p-4">
             <AppCardSec v-for="newCard in newCards" :item="newCard">
             </AppCardSec>
+        </div>
+
+        <div>
+            <AppCarousel></AppCarousel>
         </div>
 
 

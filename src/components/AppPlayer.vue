@@ -43,6 +43,11 @@ export default {};
             </div>
         </div>
     </div>
+    <div class="infoBlog mt-5">
+        <h2><strong>Latest From Our Blogs</strong></h2>
+        <p class="text-center p-2">Whetever you're considering a foundation course or an undergraduate degree master's <br>
+            or a PhD, academics is a place where students thrive</p>
+    </div>
 </template>
 <style lang="scss">
 .playerContainer {
