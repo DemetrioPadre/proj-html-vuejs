@@ -1,6 +1,31 @@
 <script>
+import AppCardCenter from './AppCardCenter.vue';
+export default {
+    data() {
+        return {
+            cards: [
+                {
+                    image: "bruce-mars-FWVMhUa_wbY-unsplash.jpg",
+                    price: "Free",
+                    title: "UI Animation using Sketch 3, Principle App, and Flinto",
+                    paragraph: " This online photography course will teach you how to take amazing images and even sell...",
+                    info: "Course by : University",
 
-export default {};
+
+                },
+                {
+                    image: "bruce-mars-FWVMhUa_wbY-unsplash.jpg",
+                    price: "Free",
+                    title: "UI Animation using Sketch 3, Principle App, and Flinto",
+                    paragraph: " This online photography course will teach you how to take amazing images and even sell...",
+                    info: "Course by : University",
+                },
+
+            ],
+        };
+    },
+    components: { AppCardCenter }
+};
 </script>
 <template>
     <!-- JUMBO -->
@@ -64,6 +89,10 @@ export default {};
 
             </div>
 
+        </div>
+        <div class="row">
+            <AppCardCenter v-for="card in cards" :item="card">
+            </AppCardCenter>
         </div>
 
     </main>
