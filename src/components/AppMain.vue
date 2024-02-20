@@ -31,6 +31,31 @@ export default {
                 },
 
             ],
+            newCards: [
+                {
+                    image: "news-3-2.jpg",
+                    admin: " Admin",
+                    school: "University",
+                    title: "Peer pressure chamges how teens tackle inequality",
+                    more: "Read more",
+                },
+                {
+                    image: "news-2-2.jpg",
+                    admin: "Admin",
+                    school: "Education",
+                    title: "Lewishan Live Mixtape celebrates borough's",
+                    more: "Read more",
+                },
+                {
+                    image: "news-1-2.jpg",
+                    admin: "Admin",
+                    school: "Education",
+                    title: "Turner Prize winner's work to open Gold on Film Festival",
+                    more: "Read more",
+
+                }
+
+            ]
         };
     },
     components: { AppCardCenter, AppPlayer, AppCardSec }
@@ -112,6 +137,10 @@ export default {
         </div>
         <div class="">
             <AppPlayer></AppPlayer>
+        </div>
+        <div class="row">
+            <AppCardSec v-for="newCard in newCards" :item="newCard">
+            </AppCardSec>
         </div>
 
 
