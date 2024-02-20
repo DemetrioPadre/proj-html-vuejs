@@ -52,6 +52,12 @@ export default {};
                             asperiores autem ad! </p>
                     </div>
                 </div>
+                <div class="row d-flex">
+                    <div class="counter"><img src="../assets/img/counter-shape-1-1-1.png" alt=""></div>
+                    <div class="counter"><img src="../assets/img/counter-shape-2-1-1.png" alt=""></div>
+                    <div class="counter"><img src="../assets/img/counter-shape-3-1-1.png" alt=""></div>
+                </div>
+
             </div>
 
         </div>
@@ -135,6 +141,7 @@ h2 {
 .card {
     width: 600px;
     align-items: center;
+
 }
 
 .imgTools {
