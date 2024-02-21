@@ -76,7 +76,7 @@ export default {
                         <br>
                         knowledge
                         on managment, technology and innovation.</span>
-                    <p><strong>Take me there</strong><i class="fa-solid fa-angle-right"></i></p>
+                    <p><strong>Take me there</strong> <i class="fa-solid fa-angle-right"></i></p>
                 </div>
             </div>
 

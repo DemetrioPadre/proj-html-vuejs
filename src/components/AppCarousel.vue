@@ -20,13 +20,13 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
+.col-3 {
+    margin-top: 50px;
+}
+
 .card-img-top:hover {
     opacity: 0.5;
     cursor: pointer;
-
-
-
-
 }
 </style>
 

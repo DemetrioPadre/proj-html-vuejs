@@ -29,7 +29,11 @@ export default {
         </div>
     </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
+.col-3 {
+    margin-bottom: 50px;
+}
+
 .card-body {
     text-align: left;
 }

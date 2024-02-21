@@ -19,7 +19,7 @@ export default {};
         </div>
         <div class="colPlayer">
             <div class="headerCol">
-                <p class="  fs-3"><strong>Upcoming Events</strong></p>
+                <p class=" event fs-3"><strong>Upcoming Events</strong></p>
 
 
             </div>
@@ -78,6 +78,10 @@ export default {};
 
 }
 
+.event {
+    color: white;
+}
+
 
 .colContainer {
     display: flex;
@@ -86,7 +90,7 @@ export default {};
 .colPlayer {
     width: 600px;
     height: 550px;
-    background-color: #FFFFFF7A;
+    background-color: #ffffff;
     margin-top: 200px;
 
 }

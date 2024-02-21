@@ -14,15 +14,8 @@ export default {
                 <p class="hover"> <i class="fa-solid fa-angle-right"></i> {{ item.accomodation }}</p>
                 <p class="hover"> <i class="fa-solid fa-angle-right"></i> {{ item.arts }}</p>
                 <p class="hover"> <i class="fa-solid fa-angle-right"></i> {{ item.service }}</p>
-                <p class="hover"> <i class="fa-solid fa-angle-right"></i> {{ item.coonference }}</p>
+                <p class="hover"> <i class="fa-solid fa-angle-right"></i> {{ item.conference }}</p>
                 <p class="hover"> <i class="fa-solid fa-angle-right"></i> {{ item.fb }}</p>
-
-
-
-
-
-
-
             </div>
         </div>
     </div>

@@ -130,12 +130,12 @@ export default {
                 </div>
                 <div class="row d-flex">
                     <div class=" col-3"><img class="counter" src="../assets/img/counter-shape-1-1-1.png" alt="">
-                        <span class="ciao">6500 + students</span>
+                        <span class="ciao"> <span class="stud"><strong>6500 +</strong></span> students</span>
                     </div>
                     <div class="col-3"><img class="counter" src="../assets/img/counter-shape-2-1-1.png" alt=""><span
-                            class="ciao">200 + online courses</span></div>
+                            class="ciao"> <span class="online"><strong>200 + </strong></span> online courses</span></div>
                     <div class="col-3"><img class="counter" src="../assets/img/counter-shape-3-1-1.png" alt=""><span
-                            class="ciao">100% Happy clients</span></div>
+                            class="ciao"> <span class="clients"> <strong>100%</strong></span> Happy clients</span></div>
                 </div>
 
             </div>
@@ -278,5 +278,20 @@ h2 {
 .ciao {
     position: relative;
     margin-top: 130px;
+}
+
+.stud {
+    color: #F28202;
+    font-size: 30px;
+}
+
+.online {
+    color: #FF3A2D;
+    font-size: 30px;
+}
+
+.clients {
+    color: #3ADC79;
+    font-size: 30px;
 }
 </style>
