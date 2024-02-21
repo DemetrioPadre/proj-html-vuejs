@@ -11,5 +11,11 @@ export default {
     },
 };
 </script>
-<template></template>
+<template>
+    <div class="col-3 mt-5">
+        <div class="card d-flex">
+            <img class="card-img-top" :src="generateURL('../assets/img/' + item.image)" alt="">
+        </div>
+    </div>
+</template>
 <style lang="scss"></style>

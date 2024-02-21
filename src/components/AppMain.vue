@@ -56,6 +56,20 @@ export default {
 
                 }
 
+            ],
+            carousels: [
+                {
+                    image: "gallery-3-3.jpg"
+                },
+                {
+                    image: "news-3-2.jpg",
+                },
+                {
+                    image: "gallery-1-3.jpg"
+                },
+                {
+                    image: "gallery-2-3.jpg"
+                }
             ]
         };
     },
@@ -144,8 +158,9 @@ export default {
             </AppCardSec>
         </div>
 
-        <div>
-            <AppCarousel></AppCarousel>
+        <div class="row">
+            <AppCarousel v-for="carousel in carousels" :item="carousel">
+            </AppCarousel>
         </div>
 
 
