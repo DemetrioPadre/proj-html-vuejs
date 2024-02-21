@@ -12,9 +12,12 @@ export default {
             <div class="card-body ">
 
                 <h4>{{ item.title }}</h4>
-                <p class="hover"><i class="fa-solid fa-location-dot"></i> {{ item.address }} </p>
-                <p class="hover"><i class="fa-solid fa-square-phone"></i>{{ item.phone }}</p>
-                <p class="hover"><i class="fa-regular fa-envelope"></i>{{ item.mail }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.admission }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.contact }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.fq }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.info }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.privacyN }}</p>
+
             </div>
         </div>
     </div>
@@ -38,6 +41,5 @@ export default {
 .hover:hover {
     color: #D74D52;
     padding-left: 10px;
-    cursor: pointer;
 }
 </style>

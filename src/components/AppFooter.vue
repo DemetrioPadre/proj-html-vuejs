@@ -1,5 +1,8 @@
 <script>
 import AppFooterCard from './AppFooterCard.vue';
+import AppCardSVue from './AppCardS.vue';
+import AppCardTh from './AppCardTh.vue';
+import AppCardF from './AppCardF.vue';
 export default {
     data() {
         return {
@@ -10,6 +13,9 @@ export default {
                     phone: "+56345678 000-09",
                     mail: "info@example.com"
                 },
+
+            ],
+            cardSecs: [
                 {
                     title: "Support Us",
                     privacy: "Privacy",
@@ -17,6 +23,8 @@ export default {
                     coockie: "Cookie Policy",
                     map: "Sitemap"
                 },
+            ],
+            cardThs: [
                 {
                     title: "Explore",
                     accomodation: "Accomodation",
@@ -25,6 +33,8 @@ export default {
                     conference: "Conference and Events",
                     fb: "Food and Drink",
                 },
+            ],
+            cardFs: [
                 {
                     title: "Visit",
                     admission: "Admission",
@@ -33,12 +43,16 @@ export default {
                     info: "Request Information",
                     privacyN: "Privacy Notice",
                 }
+            ],
 
-            ]
+
+
+
+
 
         };
     },
-    components: { AppFooterCard }
+    components: { AppFooterCard, AppCardSVue, AppCardTh, AppCardF }
 };
 </script>
 <template>
@@ -70,9 +84,10 @@ export default {
 
         <div class="row">
             <AppFooterCard v-for="footerCard in footerCards" :item="footerCard">
-
-
             </AppFooterCard>
+            <AppCardSVue v-for="cardSec in cardSecs" :item="cardSec"></AppCardSVue>
+            <AppCardTh v-for="cardTh in cardThs" :item="cardTh"></AppCardTh>
+            <AppCardF v-for="cardF in cardFs" :item="cardF"></AppCardF>
         </div>
 
     </div>

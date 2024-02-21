@@ -86,7 +86,7 @@ export default {};
 .colPlayer {
     width: 600px;
     height: 550px;
-    background-color: pink;
+    background-color: #FFFFFF7A;
     margin-top: 200px;
 
 }

@@ -22,6 +22,7 @@ export default {
                 </div>
 
                 <h5 class="mt-3">{{ item.title }}</h5>
+                <div class="br-red"></div>
                 <p class="mt-5">{{ item.more }} <i class="fa-solid fa-angle-right"></i></p>
             </div>
 
@@ -31,5 +32,11 @@ export default {
 <style lang="scss">
 .card-body {
     text-align: left;
+}
+
+.br-red {
+    width: 50px;
+    border-bottom: 2px solid red;
+    margin-top: 20px;
 }
 </style>
