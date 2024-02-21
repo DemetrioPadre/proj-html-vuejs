@@ -16,6 +16,22 @@ export default {
                     terms: "Terms",
                     coockie: "Cookie Policy",
                     map: "Sitemap"
+                },
+                {
+                    title: "Explore",
+                    accomodation: "Accomodation",
+                    arts: "Arts Academics",
+                    service: "Central Services",
+                    conference: "Conference and Events",
+                    fb: "Food and Drink",
+                },
+                {
+                    title: "Visit",
+                    admission: "Admission",
+                    contact: "Contacts Us",
+                    fq: "FAQs",
+                    info: "Request Information",
+                    privacy: "Privacy Notice",
                 }
 
             ]
@@ -50,6 +66,10 @@ export default {
                 </div>
             </div>
 
+        </div>
+
+        <div class="row">
+            <AppFooterCard v-for="footerCard in footerCards" :item="footerCard"></AppFooterCard>
         </div>
 
     </div>
