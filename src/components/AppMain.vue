@@ -4,6 +4,7 @@ import AppPlayer from './AppPlayer.vue';
 import AppCardSec from './AppCardSec.vue';
 import AppCarousel from './AppCarousel.vue';
 import AppFooter from './AppFooter.vue';
+import AppFooterCard from './AppFooterCard.vue';
 export default {
     data() {
         return {
@@ -74,7 +75,7 @@ export default {
             ]
         };
     },
-    components: { AppCardCenter, AppPlayer, AppCardSec, AppCarousel, AppFooter }
+    components: { AppCardCenter, AppPlayer, AppCardSec, AppCarousel, AppFooter, AppFooterCard }
 };
 </script>
 <template>

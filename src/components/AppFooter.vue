@@ -1,8 +1,28 @@
 <script>
+import AppFooterCard from './AppFooterCard.vue';
 export default {
-    props: {
-        item: Object,
+    data() {
+        return {
+            footerCards: [
+                {
+                    title: "Contact Us",
+                    address: "900 Wood Street, MI NY 48607",
+                    phone: "+56345678 000-09",
+                    mail: "info@example.com"
+                },
+                {
+                    title: "Support Us",
+                    privacy: "Privacy",
+                    terms: "Terms",
+                    coockie: "Cookie Policy",
+                    map: "Sitemap"
+                }
+
+            ]
+
+        };
     },
+    components: { AppFooterCard }
 };
 </script>
 <template>
@@ -11,8 +31,9 @@ export default {
             <div class="navShadow  ">
 
                 <div class="leftSideBar d-flex ">
-
+                    <p class="clbar"></p>
                     <form class="d-flex " role="search">
+
                         <input class="searchBar form-control rounded-0" type="search"
                             placeholder="Subscribe to our newsletter" aria-label="Search">
                     </form>
@@ -20,7 +41,8 @@ export default {
                 </div>
 
                 <div class="rightSideBar ">
-                    <span><span class="red">Insights is Picwik</span>University's thought leadership publication for sharing
+                    <span><span class="red">Insights is Picwik </span> University's thought leadership publication for
+                        sharing
                         <br>
                         knowledge
                         on managment, technology and innovation.</span>
@@ -47,6 +69,8 @@ export default {
     padding: 30px;
     align-items: center;
 
+    border-left: 7px solid #23374b;
+
 }
 
 
@@ -56,15 +80,11 @@ export default {
 }
 
 .leftSideBar {
-    border-left: 7px solid #23374b;
+    margin-left: 20px;
+
 
 }
 
-// .clbar {
-//     width: 7px;
-//     height: 60px;
-
-// }
 
 .buttn {
     height: 50px;
