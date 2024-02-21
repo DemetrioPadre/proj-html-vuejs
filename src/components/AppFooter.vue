@@ -6,7 +6,7 @@ export default {
             footerCards: [
                 {
                     title: "Contact Us",
-                    address: "900 Wood Street, MI NY 48607",
+                    address: " 900 Wood Street, MI NY 48607",
                     phone: "+56345678 000-09",
                     mail: "info@example.com"
                 },
@@ -31,7 +31,7 @@ export default {
                     contact: "Contacts Us",
                     fq: "FAQs",
                     info: "Request Information",
-                    privacy: "Privacy Notice",
+                    privacyN: "Privacy Notice",
                 }
 
             ]
@@ -42,7 +42,7 @@ export default {
 };
 </script>
 <template>
-    <div class="footerContainer">
+    <div class="footerContainer container-fluid">
         <div class="footerNav d-flex justify-content-center">
             <div class="navShadow  ">
 
@@ -69,12 +69,15 @@ export default {
         </div>
 
         <div class="row">
-            <AppFooterCard v-for="footerCard in footerCards" :item="footerCard"></AppFooterCard>
+            <AppFooterCard v-for="footerCard in footerCards" :item="footerCard">
+
+
+            </AppFooterCard>
         </div>
 
     </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 .footerContainer {
     height: 800px;
     background-color: #192735;
@@ -118,5 +121,10 @@ export default {
 .red {
     color: red;
     border-bottom: 1px solid white;
+}
+
+.row {
+    color: white;
+    background-color: #192735;
 }
 </style>
