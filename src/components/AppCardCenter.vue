@@ -24,7 +24,7 @@ export default {
         </div>
     </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 .info {
     color: #d74d52;
 }

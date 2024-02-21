@@ -13,8 +13,8 @@ export default {
 
                 <h4>{{ item.title }}</h4>
                 <p class="hover"><i class="fa-solid fa-location-dot"></i> {{ item.address }} </p>
-                <p class="hover"><i class="fa-solid fa-square-phone"></i>{{ item.phone }}</p>
-                <p class="hover"><i class="fa-regular fa-envelope"></i>{{ item.mail }}</p>
+                <p class="hover"><i class="fa-solid fa-square-phone"></i> {{ item.phone }}</p>
+                <p class="hover"><i class="fa-regular fa-envelope"></i> {{ item.mail }}</p>
             </div>
         </div>
     </div>

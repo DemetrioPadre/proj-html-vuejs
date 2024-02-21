@@ -12,11 +12,11 @@ export default {
             <div class="card-body ">
 
                 <h4>{{ item.title }}</h4>
-                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.admission }}</p>
-                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.contact }}</p>
-                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.fq }}</p>
-                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.info }}</p>
-                <p class="hover"><i class="fa-solid fa-angle-right"></i>{{ item.privacyN }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i> {{ item.admission }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i> {{ item.contact }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i> {{ item.fq }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i> {{ item.info }}</p>
+                <p class="hover"><i class="fa-solid fa-angle-right"></i> {{ item.privacyN }}</p>
 
             </div>
         </div>
