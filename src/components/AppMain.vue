@@ -3,6 +3,7 @@ import AppCardCenter from './AppCardCenter.vue';
 import AppPlayer from './AppPlayer.vue';
 import AppCardSec from './AppCardSec.vue';
 import AppCarousel from './AppCarousel.vue';
+import AppFooter from './AppFooter.vue';
 export default {
     data() {
         return {
@@ -73,7 +74,7 @@ export default {
             ]
         };
     },
-    components: { AppCardCenter, AppPlayer, AppCardSec, AppCarousel }
+    components: { AppCardCenter, AppPlayer, AppCardSec, AppCarousel, AppFooter }
 };
 </script>
 <template>
@@ -163,8 +164,12 @@ export default {
             </AppCarousel>
         </div>
 
-
     </main>
+    <footer>
+        <div class="container-fluid">
+            <AppFooter></AppFooter>
+        </div>
+    </footer>
 </template>
 <style lang="scss" >
 main {
